@@ -1,3 +1,6 @@
+### command
+
+
 - Electron起動
 
   ```
@@ -12,16 +15,18 @@
 
 
 
-- DOMContentLoadedイベント
+### DOMContentLoadedイベント
 
-  1.  WebブラウザがグローバルオブジェクトであるWindowオブジェクトを生成
+1. WebブラウザがグローバルオブジェクトであるWindowオブジェクトを生成
 
-  2. WindowオブジェクトのプロパティとしてDocumentオブジェクトが生成される
+2. WindowオブジェクトのプロパティとしてDocumentオブジェクトが生成される
 
-  3. DocumentオブジェクトはDOMツリーを読み込む
+3. DocumentオブジェクトはDOMツリーを読み込む
 
-  4. 解析が終わるとDOMContentLoadedイベントが発火される
+4. 解析が終わるとDOMContentLoadedイベントが発火される
 
+   
 
-参考：[「Electron」で簡単デスクトップアプリを制作する勉強会を開催しました！](https://giginc.co.jp/blog/study/1284)
+### 参考
 
+[「Electron」で簡単デスクトップアプリを制作する勉強会を開催しました！](https://giginc.co.jp/blog/study/1284)
